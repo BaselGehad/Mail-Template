@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Mail Template</title>
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/8ceece6883.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=RobotoDraft"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <!-- inputs -->
+    <input type="radio" name="inbox" id="one" checked/>
+    <input type="radio" name="inbox" id="two" />
+    <input type="radio" name="inbox" id="three" />
+    <input type="checkbox" id="menu" />
+    <input type="checkbox" id="send-mail" />
+    <input type="checkbox" id="inbox-details" />
+    <!-- overlay -->
+    <div class="overlay"></div>
+    <!-- popups -->
+    <div class="send-mail">
+      <div class="header">
+        <h2>Send Mail</h2>
+        <label for="send-mail">
+          <i class="fa-solid fa-close"></i>
+        </label>
+      </div>
+      <form action="">
+        <label for="mail-to">To</label>
+        <input type="email" id="mail-to" />
+        <label for="mail-from">From</label>
+        <input type="email" id="mail-from" />
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" />
+        <input placeholder="What is in your mind?" />
+        <div class="btn">
+          <label for="send-mail">
+            <div>Cancel <i class="fa-solid fa-close"></i></div>
+          </label>
+          <button type="submit">
+            Send <i class="fa-solid fa-paper-plane"></i>
+          </button>
+        </div>
+      </form>
+    </div>
+    <!-- header -->
+    <header>
+      <label for="menu">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+      <label for="send-mail">
+        <i class="fa-solid fa-pen"></i>
+      </label>
+    </header>
+    <!-- side menu -->
+    <nav>
+      <label for="menu">
+        <i class="fa-solid fa-close"></i>
+      </label>
+      <ul>
+        <li class="title">
+          <h3>Mail Template</h3>
+        </li>
+        <label for="send-mail">
+          <li>New Message <i class="fa-solid fa-pen"></i></li>
+        </label>
+        <!-- inbox -->
+        <label for="inbox-details"
+          ><li><i class="fa-solid fa-inbox"></i>Inbox (3)</li>
+        </label>
+        <!-- inbox details -->
+        <label for="one">
+          <li class="inbox-details">
+            <img src="avatar3.png" alt="personal-1" />
+            <span>Borge Refsnes</span>
+            <p>Subject: Remember Me</p>
+            <p>Hello, i just wanted to let you know that i'll be hom at...</p>
+          </li>
+        </label>
+        <label for="two">
+          <li class="inbox-details">
+            <img src="avatar2.png" alt="personal-1" />
+            <span>Jane Doe</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, hic eveniet. Ad dolore... </p>
+          </li>
+        </label>
+        <label for="three">
+          <li class="inbox-details">
+            <img src="avatar1.png" alt="personal-1" />
+            <span>John Doe</span>
+            <p>Welcome!</p>
+          </li>
+        </label>
+        <li><i class="fa-solid fa-paper-plane"></i>Sent</li>
+        <li><i class="fa-solid fa-hourglass-end"></i>Draft</li>
+        <li><i class="fa-solid fa-trash"></i>Trash</li>
+      </ul>
+      <!-- footer -->
+      <footer>
+        <p>find us on</p>
+          <ul>
+            <li><i class="fa-brands fa-facebook"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><i class="fa-brands fa-snapchat"></i></li>
+            <li><i class="fa-brands fa-pinterest"></i></li>
+            <li><i class="fa-brands fa-linkedin"></i></li>
+          </ul>
+          <p>Made with <i class="fa-solid fa-heart"></i> By Basel Gehad</p>
+          <p>This Template From W3</p>
+      </footer>
+    </nav>
+    <!-- main content -->
+    <main>
+      <section>
+        <div class="info">
+          <img src="avatar3.png" alt="personal-1" />
+          <p>Subject: Remember Me</p>
+          <p>
+            <i class="fa-regular fa-clock"></i>From Borge Refsnes, Sep 27, 2023.
+          </p>
+          <button>Reply <i class="fa-solid fa-mail-reply"></i></button>
+          <button>Forward <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <hr />
+        <div class="message">
+          <p>
+            Hello, i just wanted to let you know that i'll be home at lorem
+            ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est
+            laborum consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim nemo
+            quisquam laudantium cum necessitatibus accusantium eius ullam iure
+            molestiae veniam voluptate quasi, ad sed quo accusamus, eveniet
+            tempore ut natus?
+          </p>
+          <p>
+            Best Regards, <br />
+            Borge Refsnes
+          </p>
+        </div>
+      </section>
+      <section>
+        <div class="info">
+          <img src="avatar2.png" alt="personal-1" />
+          <p>Subject: None</p>
+          <p>
+            <i class="fa-regular fa-clock"></i>From Borge Refsnes, Sep 27, 2022.
+          </p>
+          <button>Reply <i class="fa-solid fa-mail-reply"></i></button>
+          <button>Forward <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <hr />
+        <div class="message">
+          <p>
+            Hello, i just wanted to let you know that i'll be home at lorem
+            ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est
+            laborum consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.
+          </p>
+          <p>Forever yours, <br> Jane</p>
+        </div>
+      </section>
+      <section>
+        <div class="info">
+          <img src="avatar1.png" alt="personal-1" />
+          <p>Subject: None</p>
+          <p>
+            <i class="fa-regular fa-clock"></i>From Borge Refsnes, Sep 27, 2023.
+          </p>
+          <button>Reply <i class="fa-solid fa-mail-reply"></i></button>
+          <button>Forward <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <hr />
+        <div class="message">
+          <p>Welcome. <br> That's it!</p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

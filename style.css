@@ -37,7 +37,7 @@ div.overlay {
 div.send-mail {
   background-color: white;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-  position: absolute;
+  position: fixed;
   left: 50%;
   top: 50%;
   width: 80%;
